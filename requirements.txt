@@ -12,3 +12,8 @@ sentence-transformers
 sec-edgar-downloader
 jupyter
 ipykernel
+rapidfuzz
+spacy
+yfinance
+node2vec
+torch-geometric-temporal

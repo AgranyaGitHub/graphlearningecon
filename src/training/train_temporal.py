@@ -3,7 +3,7 @@ from models.temporal_gnn import TemporalGNN
 
 def train(dataset, num_epochs = 10):
     model = TemporalGNN(num_features = dataset[0].x.shape[1])
-    optimizer = torch.optim.Adam(model.parameters() lr = 0.01)
+    optimizer = torch.optim.Adam(model.parameters(), lr = 0.01)
     loss_fn = torch.nn.BCELoss()
 
     model.train()

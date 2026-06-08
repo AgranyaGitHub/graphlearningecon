@@ -1,1 +1,3 @@
-# graphlearningecon
+# Creating a Macroeconomic Causal Network using Graph Learning
+
+Inspired by work from ["Temporal Graph Networks for Deep Learning on Dynamic Graphs"](https://arxiv.org/pdf/2006.10637) by Rossi et al and ["Reconstructing temporal multi-relational firm networks at scale using large language models. The case of the semiconductor industry"](https://arxiv.org/pdf/2605.15842) by Köse et al. Applies a general-purpose dynamic graph intelligence system to create an economic cause-and-effect network. The temporal GNN adapts to supplier changes, payment relationship shifts, supply chain delays, earnings reports, & other macroeconomic events and aims to learn if/how individual disruptions cascade into global effects.
